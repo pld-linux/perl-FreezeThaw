@@ -3,7 +3,7 @@ Summary:	FreezeThaw perl module
 Summary(pl):	Modu³ perla FreezeThaw
 Name:		perl-FreezeThaw
 Version:	0.41
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
