@@ -24,7 +24,7 @@ FreezeThaw - konwertuje struktury do ³añcuchów i odwrotnie.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
