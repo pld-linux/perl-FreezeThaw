@@ -1,10 +1,11 @@
 %include	/usr/lib/rpm/macros.perl
-Summary:	FreezeThaw perl module
-Summary(pl):	Modu³ perla FreezeThaw
+Summary:	FreezeThaw - converting Perl structures to strings and back
+Summary(pl):	FreezeThaw - konwersja struktur Perla na ³añcuchy i odwrotnie
 Name:		perl-FreezeThaw
 Version:	0.43
 Release:	2
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/FreezeThaw/FreezeThaw-%{version}.tar.gz
 # Source0-md5:	705efa533b366151953a5e2b1744650f
@@ -14,10 +15,12 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-FreezeThaw - converting Perl structures to strings and back.
+FreezeThaw module converts Perl data to/from stringified form,
+appropriate for saving-to/reading-from permanent storage.
 
 %description -l pl
-FreezeThaw - konwertuje struktury do ³añcuchów i odwrotnie.
+Modu³ FreezeThaw konwertuje dane Perla do/z postaci ³añcuchów
+tekstowych. Przydatne do zapuisu na/odczytu z trwa³ego no¶nika.
 
 %prep
 %setup -q -n FreezeThaw-%{version}
