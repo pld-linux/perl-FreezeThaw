@@ -22,7 +22,7 @@ FreezeThaw - konwertuje struktury do ³añcuchów i odwrotnie.
 %setup -q -n FreezeThaw-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
