@@ -24,7 +24,7 @@ appropriate for saving-to/reading-from permanent storage.
 
 %description -l pl
 Modu³ FreezeThaw konwertuje dane Perla do/z postaci ³añcuchów
-tekstowych. Przydatne do zapuisu na/odczytu z trwa³ego no¶nika.
+tekstowych. Przydatne do zapisu na/odczytu z trwa³ego no¶nika.
 
 %prep
 %setup -q -n FreezeThaw-%{version}
