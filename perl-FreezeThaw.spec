@@ -4,7 +4,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 Summary:	FreezeThaw - converting Perl structures to strings and back
-Summary(pl):	FreezeThaw - konwersja struktur Perla na ≥aÒcuchy i odwrotnie
+Summary(pl.UTF-8):   FreezeThaw - konwersja struktur Perla na ≈Ça≈Ñcuchy i odwrotnie
 Name:		perl-FreezeThaw
 Version:	0.43
 Release:	3
@@ -22,9 +22,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 FreezeThaw module converts Perl data to/from stringified form,
 appropriate for saving-to/reading-from permanent storage.
 
-%description -l pl
-Modu≥ FreezeThaw konwertuje dane Perla do/z postaci ≥aÒcuchÛw
-tekstowych. Przydatne do zapisu na trwa≥ym no∂niku i odczycie z niego.
+%description -l pl.UTF-8
+Modu≈Ç FreezeThaw konwertuje dane Perla do/z postaci ≈Ça≈Ñcuch√≥w
+tekstowych. Przydatne do zapisu na trwa≈Çym no≈õniku i odczycie z niego.
 
 %prep
 %setup -q -n FreezeThaw-%{version}
