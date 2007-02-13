@@ -4,7 +4,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 Summary:	FreezeThaw - converting Perl structures to strings and back
-Summary(pl.UTF-8):   FreezeThaw - konwersja struktur Perla na łańcuchy i odwrotnie
+Summary(pl.UTF-8):	FreezeThaw - konwersja struktur Perla na łańcuchy i odwrotnie
 Name:		perl-FreezeThaw
 Version:	0.43
 Release:	3
