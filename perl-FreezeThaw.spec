@@ -6,13 +6,13 @@
 Summary:	FreezeThaw - converting Perl structures to strings and back
 Summary(pl.UTF-8):	FreezeThaw - konwersja struktur Perla na łańcuchy i odwrotnie
 Name:		perl-FreezeThaw
-Version:	0.45
+Version:	0.5001
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/FreezeThaw/FreezeThaw-%{version}.tar.gz
-# Source0-md5:	2060d11775f5546f97cc03d8f1ed98e5
+# Source0-md5:	6314ff39384d839a7394a3bc363e149f
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
