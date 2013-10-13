@@ -13,6 +13,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/FreezeThaw/FreezeThaw-%{version}.tar.gz
 # Source0-md5:	6314ff39384d839a7394a3bc363e149f
+URL:		http://search.cpan.org/dist/FreezeThaw/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -49,4 +50,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes README
 %{perl_vendorlib}/FreezeThaw.pm
-%{_mandir}/man3/*
+%{_mandir}/man3/FreezeThaw.3pm*
