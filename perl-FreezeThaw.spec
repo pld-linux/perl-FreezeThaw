@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_without	tests	# do not perform "make test"
+%bcond_without	tests	# unit tests
 #
 Summary:	FreezeThaw - converting Perl structures to strings and back
 Summary(pl.UTF-8):	FreezeThaw - konwersja struktur Perla na łańcuchy i odwrotnie
@@ -10,11 +10,12 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/FreezeThaw/FreezeThaw-%{version}.tar.gz
+Source0:	https://www.cpan.org/modules/by-module/FreezeThaw/FreezeThaw-%{version}.tar.gz
 # Source0-md5:	6314ff39384d839a7394a3bc363e149f
-URL:		http://search.cpan.org/dist/FreezeThaw/
+URL:		https://metacpan.org/dist/FreezeThaw
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
